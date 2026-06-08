@@ -6,7 +6,7 @@ import {
 } from "@react-three/drei"
 
 function Logo() {
-  const { scene } = useGLTF("/ae-logo.glb")
+  const { scene } = useGLTF("/ae-logo-v2.glb")
 
   return (
     <Float
